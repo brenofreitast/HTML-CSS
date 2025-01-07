@@ -24,7 +24,7 @@
 header{
     color: white;
     background-color: black;
-    height: 238px;
+    height: 330px;
 
 }
 
@@ -32,6 +32,13 @@ header{
 
 header h1{
     font-family: var(--font-cabecalho);
+    text-align: center;
+    padding: 50px 0px 5px 0px;
+    font-size: 8em;
+}
+
+.maior{
+    font-size: 1.5em;
 }
 
 header a{
@@ -45,9 +52,55 @@ header a:hover{
 
 header p{
     font-family: var(--font-padrao);
+    text-align: center;
 }
-
 
 main p{
     font-family: var(--font-poesia);
+    text-align: left;
+    font-size: 3.5em;
+    line-height: 2em;
+    margin: 40px;
+    margin-top: 80px;
+   
+}
+
+main section{
+    height: 900px;
+}
+
+p.imagem{
+    background-color: rgba(0, 0, 0, 0.418);
+    color: white;
+    width: 670px;
+
+}
+
+section#joaninha{
+    background-image: url('../imagens/background001.jpg');
+    background-position: center right;
+    padding: 40px 0px 40px 5px;
+    background-attachment: fixed;
+
+}
+
+section#livro{
+    background-image: url('../imagens/background002.jpg');
+    background-attachment: fixed;
+    padding: 40px 0px 40px 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-family: var(--font-padrao);
+    padding: 10px;
+    margin-top: 200px;
+}
+
+footer a{
+    font-weight: bold;
+    text-decoration: none;
 }
