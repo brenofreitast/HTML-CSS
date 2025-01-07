@@ -21,6 +21,7 @@
     margin: 0px;
 }
 
+
 header{
     color: white;
     background-color: black;
@@ -67,6 +68,7 @@ main p{
 
 main section{
     height: 900px;
+    margin-top: 200px;
 }
 
 p.imagem{
@@ -80,12 +82,14 @@ section#joaninha{
     background-image: url('../imagens/background001.jpg');
     background-position: center right;
     padding: 40px 0px 40px 5px;
+    background-size: cover;
     background-attachment: fixed;
 
 }
 
 section#livro{
     background-image: url('../imagens/background002.jpg');
+    background-size: cover;
     background-attachment: fixed;
     padding: 40px 0px 40px 5px;
 }
@@ -103,4 +107,8 @@ footer{
 footer a{
     font-weight: bold;
     text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
