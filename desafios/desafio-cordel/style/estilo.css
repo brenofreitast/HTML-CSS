@@ -25,17 +25,16 @@
 header{
     color: white;
     background-color: black;
-    height: 330px;
-
+    text-align: center;
 }
 
 
 
 header h1{
     font-family: var(--font-cabecalho);
-    text-align: center;
     padding: 50px 0px 5px 0px;
-    font-size: 8em;
+    font-size: 7vw;
+
 }
 
 .maior{
@@ -54,40 +53,41 @@ header a:hover{
 header p{
     font-family: var(--font-padrao);
     text-align: center;
+    padding-bottom: 30px;
 }
 
 main p{
     font-family: var(--font-poesia);
     text-align: left;
-    font-size: 3.5em;
+    font-size: 0.4em;
     line-height: 2em;
     margin: 40px;
     margin-top: 80px;
    
 }
 
-main section{
-    height: 900px;
-    margin-top: 200px;
+section{
+    font-size: 8vw;
+    margin-top: 100px;
 }
 
-p.imagem{
-    background-color: rgba(0, 0, 0, 0.418);
-    color: white;
-    width: 670px;
-
-}
 
 section#joaninha{
     background-image: url('../imagens/background001.jpg');
-    background-position: center right;
-    padding: 40px 0px 40px 5px;
+    background-position: center right; 
+    
+}
+
+section.imagem{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.822);
     background-size: cover;
     background-attachment: fixed;
+    
 
 }
 
-section#livro{
+section.imagem#livro{
     background-image: url('../imagens/background002.jpg');
     background-size: cover;
     background-attachment: fixed;
