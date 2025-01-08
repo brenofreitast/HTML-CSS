@@ -42,6 +42,7 @@ header h1{
 }
 
 header a{
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -56,19 +57,14 @@ header p{
     padding-bottom: 30px;
 }
 
-main p{
-    font-family: var(--font-poesia);
-    text-align: left;
-    font-size: 0.4em;
-    line-height: 2em;
-    margin: 40px;
-    margin-top: 80px;
-   
-}
 
 section{
-    font-size: 8vw;
-    margin-top: 100px;
+    font-size: 3.5vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--font-poesia);
 }
 
 
@@ -78,33 +74,37 @@ section#joaninha{
     
 }
 
-section.imagem{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.822);
-    background-size: cover;
-    background-attachment: fixed;
-    
-
+section#livro{
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
 }
 
-section.imagem#livro{
-    background-image: url('../imagens/background002.jpg');
+section.imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
-    padding: 40px 0px 40px 5px;
+}
+
+section.imagem p{
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
 footer{
     background-color: black;
     color: white;
-    font-size: 1em;
     text-align: center;
-    font-family: var(--font-padrao);
+    font-size: 1em;
     padding: 10px;
+    font-family: var(--font-padrao);
+    
     margin-top: 200px;
 }
 
 footer a{
+    color: white;
     font-weight: bold;
     text-decoration: none;
 }
